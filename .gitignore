@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Variáveis e informações sensíveis
+.env
+.env.local
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Arquivos gerados / Build
+dist/
+build/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# JetBrains
+.idea/
+*.iml
+S
