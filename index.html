@@ -1,20 +1,118 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Document</title>
+    <title>ToDo App — Suas tarefas em ordem, sua cabeça em paz</title>
 
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
+
+    <header class="header">
+
+        <div class="container header__inner">
+
+            <a href="#" class="logo">
+                <img src="IMG/Captura de tela 2026-08-27 201524.png" alt="ToDo App">
+            </a>
+
+            <nav class="nav">
+                <a href="#recursos">Recursos</a>
+                <a href="#como">Como funciona</a>
+                <a href="#planos">Planos</a>
+                <a href="#baixar" class="btn btn--primary btn--sm">Baixar grátis</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="container hero">
+
+            <div>
+
+                <span class="pill">Organize seu dia em minutos</span>
+
+                <h1>Suas tarefas em ordem, sua cabeça em paz.</h1>
+
+                <p class="lead">
+                    O ToDo App reúne listas, prazos e lembretes em um só lugar.
+                    Simples o bastante para usar todo dia, completo o bastante
+                    para o time inteiro.
+                </p>
+
+                <div class="actions">
+                    <a href="#baixar" class="btn btn--primary">Começar agora</a>
+                    <a href="#como" class="btn btn--ghost">Ver como funciona</a>
+                </div>
+
+                <ul class="hero__meta">
+                    <li>Grátis para sempre</li>
+                    <li>Sem cartão de crédito</li>
+                    <li>iOS, Android e Web</li>
+                </ul>
+
+            </div>
+
+            <div class="mock">
+
+                <div class="mock__card">
+
+                    <div class="mock__head">
+                        <span class="mock__title">Hoje</span>
+                        <span class="pill pill--sm">3 de 5 concluídas</span>
+                    </div>
+
+                    <ul class="tasks">
+
+                        <li class="task task--done">
+                            <span class="box box--checked"></span>
+                            <span>Revisar briefing do cliente</span>
+                        </li>
+
+                        <li class="task task--done">
+                            <span class="box box--checked"></span>
+                            <span>Responder e-mails da manhã</span>
+                        </li>
+
+                        <li class="task">
+                            <span class="box"></span>
+                            <span>Finalizar apresentação</span>
+                            <span class="tag">16h</span>
+                        </li>
+
+                        <li class="task">
+                            <span class="box"></span>
+                            <span>Planejar sprint da semana</span>
+                        </li>
+
+                        <li class="task task--add">
+                            + Adicionar tarefa
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
 </body>
+
 </html>
+```
